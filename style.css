@@ -1,0 +1,91 @@
+
+.body{
+    margin:0px;
+    padding:0px;
+    overflow-y: hidden;
+
+}
+.root{
+    background-image: radial-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)),url("https://preview.redd.it/zjgs096khv591.jpg?auto=webp&s=c6135026c093f19ef733cb3435fb95d67aa6f345");
+    background-size: cover;
+    background-repeat:repeat;
+    background-position: center;
+}
+.navbar{
+    padding-top: 1%;
+    padding-left: 2vw;
+    padding-right: 4vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.img_logo{
+    width:14%;
+    color:#e50914
+
+}
+.btn-sign-in{
+    padding-top:8px ;
+    padding-bottom: 8px;
+    padding-left:20px ;
+    padding-right:20px ;
+    border-radius: 5px;
+    background-color: #e50914;
+    color:white;
+    cursor:pointer;
+   width:fit-content;
+
+}
+.main-titles-container{
+    text-align: center;
+    color:white
+}
+.main-title{
+    font-size:50px;
+    margin-bottom: 14px;
+    line-height: 1.1;
+}
+.main-subtitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.main-call-to-action{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.main-email-container{
+    width:80%;
+    height:30px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 78px;
+
+}
+.main-email-container-input{
+    width:80%;
+    height:30px;
+    font-size: 1em;
+}
+.btn-get-started{
+    width:140px;
+    height:35px;
+    background-color: #e50914;
+    color: white;
+    cursor:pointer;
+
+  
+}
+.text{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 7px;
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
